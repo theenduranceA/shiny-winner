@@ -1,11 +1,13 @@
 import React from "react";
+import Navbar from "./Navbar"
 
 function App() {
   return (
-    <div className="landing-container">
+    <div>
+      <Navbar/>
       <header className="hero">
-        <h1>Welcome to Shiny-winner App</h1>
-        <p>A 30 Days Challenge with React!</p>
+        <h1>Welcome to Shiny-winner 🚀</h1>
+        <p>Here, we WIN, we SHINE!</p>
         <button>Get Started</button>
       </header>
 
